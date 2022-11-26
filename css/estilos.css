@@ -17,6 +17,15 @@
 .navbarGral{
     background-color:#ffffff;
 }
+.navbar-toggler{
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
 
 .nav-item a{
     text-decoration: none;
