@@ -40,13 +40,35 @@
 }
 /*fin navbar*/
 
-
 .card{
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .icono{
     color: black;
+}
+
+/*boton tienda*/
+.boton{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: #00d10a;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+    
+}
+.boton:hover{
+    outline: none;
+    color: #00d10a;
+    background: transparent;
+    border-radius: 50px;
+
+
 }
 
 /*footer*/
