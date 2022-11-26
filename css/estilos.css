@@ -38,6 +38,8 @@
 .nav-item a:hover{
     color: #00d10a;
 }
+/*fin navbar*/
+
 
 .card{
     border: 2px solid black;
@@ -47,6 +49,36 @@
     color: black;
 }
 
+/*fondo index*/
+.fondo1{
+    background-image: url(../assets/images/patitasinicio.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+/*footer*/
+.link{
+    position: relative;
+    text-decoration: none;
+}
+
+.link:after{
+    content:"";
+    position: absolute;
+    background-color: #00d10a;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.link:hover{
+    color: #ffffff;
+}
+.link:hover:after{
+    width: 100%;
+}
 /*mediaquerist*/
 
 @media screen and (max-width: 767px){
