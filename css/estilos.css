@@ -47,6 +47,25 @@
 .icono{
     color: black;
 }
+/*faq acordeon*/
+.accordion-button{
+    font-size: 1.4rem;
+}
+.accordion-item{
+    border: 1px solid rgba(0, 209, 10, .35)
+}
+.accordion-button:not(.collapsed){
+    color: inherit;
+    background: rgba(0, 209, 10, 1);
+    color: #ffffff;
+}
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%)
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
 
 /*boton tienda*/
 .boton{

@@ -57,28 +57,74 @@
             </div>
         </section>
         <section>
-            <!-- preguntas en order, no se si hacer tarjetas o acordeones clickeables para que el usuario elija que pregunta leer sin sentirse agobiado por tanto texto-->
-            <div>
-                <h2>¿Por qué Patitas no acude inmediatamente a todas las alertas que mando a la página?</h2>
-                <p>
-                    Hasta el momento somos todas voluntarias mujeres que trabajan y estudian, no contamos con un trasporte fijo ni un refugio donde albergar animales. Se torna muy difícil acudir a todas las emergencias, hacemos todo lo que está a nuestro alcance.
-                </p>
-            </div>
-            <div>
-                <h2>¿Por qué Patitas no recibe a todos los cachorros que mando a la página?</h2>
-                <p>No tenemos un refugio donde albergarlos, ni la disponibilidad horaria para alimentarlos con mamadera cada 2 horas, muchas veces con la infinita comprensión y paciencia de nuestras familias logramos asistir a algunas camadas. Hace un par de semanas una voluntaria tomó bajo su cuidado a 14 perritos.</p>
-            </div>
-            <div>
-                <h2>¿Por qué Patitas no le paga el veterinario a mi perro cuando se lo pido por Facebook?</h2>
-                <p>Patitas ayuda a perros en situación de calle, como dueño que asumió un compromiso para toda su vida, es tu responsabilidad velar por la salud de tu mascota.</p>
-            </div>
-            <div>
-                <h2>¿Por qué Patitas no diagnóstica a mi perro cuando le describo sus síntomas por Facebook?</h2>
-                <p>NO SOMOS VETERINARIOS, no podemos dar diagnósticos ni recetar medicamentos. Seamos responsables con la salud de nuestras mascotas y acudamos a un médico veterinario.</p>
-            </div>
-            <div>
-                <h2>¿En Patitas sobra la plata?</h2>
-                <p>Tenemos deudas de tarjetas de crédito por internaciones y operaciones.</p>
+            <!--Acordeon preguntas frecuentes-->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="accordion w-75 mx-auto" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Por qué Patitas no acude inmediatamente a todas las alertas que mando a la página?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Hasta el momento somos todas voluntarias mujeres que trabajan y estudian, no contamos con un trasporte fijo ni un refugio donde albergar animales. Se torna muy difícil acudir a todas las emergencias, hacemos todo lo que está a nuestro alcance.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿Por qué Patitas no recibe a todos los cachorros que mando a la página?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    No tenemos un refugio donde albergarlos, ni la disponibilidad horaria para alimentarlos con mamadera cada 2 horas, muchas veces con la infinita comprensión y paciencia de nuestras familias logramos asistir a algunas camadas. Hace un par de semanas una voluntaria tomó bajo su cuidado a 14 perritos.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Por qué Patitas no le paga el veterinario a mi perro cuando se lo pido por Facebook?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Patitas ayuda a perros en situación de calle, como dueño que asumió un compromiso para toda su vida, es tu responsabilidad velar por la salud de tu mascota.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingCuatro">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro">
+                                    ¿Por qué Patitas no diagnóstica a mi perro cuando le describo sus síntomas por Facebook?
+                                  </button>
+                                </h2>
+                                <div id="collapseCuatro" class="accordion-collapse collapse" aria-labelledby="headingCuatro" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    NO SOMOS VETERINARIOS, no podemos dar diagnósticos ni recetar medicamentos. Seamos responsables con la salud de nuestras mascotas y acudamos a un médico veterinario.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingCinco">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
+                                    ¿En Patitas sobra la plata?
+                                  </button>
+                                </h2>
+                                <div id="collapseCinco" class="accordion-collapse collapse" aria-labelledby="headingCinco" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Tenemos deudas de tarjetas de crédito por internaciones y operaciones. Nuestro unico ingreso es por donaciones de gente que quiere ayudar, a veces no alcanza pero hacemos lo imposible para ayudar.
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
             </div>
             <!--podria cambiar, no estoy seguro si hacer una tabla-->
             <div>
