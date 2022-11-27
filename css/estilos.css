@@ -47,6 +47,34 @@
 .icono{
     color: black;
 }
+/*formulario*/
+
+.formulario{
+    background-color: white;
+    width: 360px;
+    padding: 20px;
+}
+.form-check-input:focus{
+    box-shadow: inherit;
+}
+.form-control:focus{
+    box-shadow: inherit;
+}
+/*mapa*/
+.mapa{
+    background-color: white;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+.mapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 /*faq acordeon*/
 .accordion-button{
     font-size: 1.4rem;
@@ -79,15 +107,12 @@
     margin: 0 auto;
     display: block;
     transition: all 0.4s;
-    
 }
 .boton:hover{
     outline: none;
     color: #00d10a;
     background: transparent;
     border-radius: 50px;
-
-
 }
 
 /*footer*/
@@ -95,7 +120,6 @@
     position: relative;
     text-decoration: none;
 }
-
 .link:after{
     content:"";
     position: absolute;
@@ -112,8 +136,8 @@
 .link:hover:after{
     width: 100%;
 }
-/*mediaquerist*/
 
+/*mediaquerist*/
 @media screen and (max-width: 767px){
     .nrTituloAlt{
         color: black;
