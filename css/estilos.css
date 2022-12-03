@@ -12,6 +12,17 @@
     background-color: rgb(247, 247, 247);
 }
 
+/*Font Sizes*/
+.titulo{
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+.texto{
+    font-size: 1.2rem;
+}
+.tituloAlt{
+    font-size: 2.2rem;
+}
 /*navbar*/
 
 .navbarGral{
@@ -46,6 +57,12 @@
 
 .icono{
     color: black;
+}
+.linea{
+    background: #00d10a;
+    height: 6px;
+    display: inline-block;
+    width: 100%;
 }
 /*formulario*/
 
@@ -139,33 +156,27 @@
 
 /*mediaquerist*/
 @media screen and (max-width: 767px){
-    .nrTituloAlt{
-        color: black;
-        font-size: 1.5rem;
+    .titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
     }
-    .nrTextoAlt{
-        color: black;
+    .texto{
         font-size: 1rem;
+    }
+    .tituloAlt{
+        font-size: 1.2rem;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    .nrTituloAlt{
-        color: black;
+    .titulo{
+        font-weight: bold;
         font-size: 2.5rem;
     }
-    .nrTextoAlt{
-        color: black;
+    .texto{
         font-size: 1.8rem;
+    }
+    .tituloAlt{
+        font-size: 2.2rem;
     }
 }
 
-@media screen and (min-width: 1024px){
-    .nrTituloAlt{
-        color: black;
-        font-size: 4rem;
-    }
-    .nrTextoAlt{
-        color: black;
-        font-size: 1.8rem;
-    }
-}
