@@ -8,18 +8,19 @@
     <link rel="icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <!--header, logo con index y barra de navegacion-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbarGral">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="./assets/images/patitaslogo.png" height="100" alt="patitasLogo.png">
-        </a>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo.png" height="100" alt="patitasLogo.png">
+          </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
@@ -46,86 +47,102 @@
       </div>
     </nav>
   </header>
-    <main>
+    <main class="cuerpo">
+      <br><br><br>
       <!--main-->
-      <section>
+      <section data-aos="zoom-in" data-aos-duration="2000">
         <!--primer imagen con texto-->
-        <div>
-          <h1>Nuestra filosofía</h1>
-            <p>
-              <img src="./assets/images/patitasinicio.jpg" >
+        <div class="container">
+          <h1 class="titulo">Nuestra filosofía</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="./assets/images/patitasinicio.jpg" >
+            </div>
+            <div class="col-md-6">
+              <p class="texto justify-content-center">
                 Nuestros pilares de trabajo son la concientización contra el abandono y el maltrato 
-                animal, al igual que difundir la esterilización como método de control sobre la 
-                población canina y felina, siempre brindando amor a nuestro amigos cuadrúpedos.
-            </p>
+                  animal, al igual que difundir la esterilización como método de control sobre la 
+                  población canina y felina, siempre brindando amor a nuestro amigos cuadrúpedos.
+              </p>
+            </div>
+          </div>
         </div>
         <br>
         <!--segunda imagen con texto-->
-        <div>
-          <h2>Nuestro objetivo</h2>
-            <p>
-              <img src="./assets/images/patitasinicio2.jpg">
-              Buscamos y fomentamos la adopcion animal, para que cualquiera pueda tener la oportunidad de tener un hogar. Buscamos hogares responsables que adopten perros adultos y cachorros, haciendo un seguimiento en cada caso para asegurarnos de que cada amigo cuadrúpedo rescatado pueda tener una mejor vida y segurarnos de que la casa adoptante sea una adecuada que le brinde mucho amor y cariño. También difundimos casos de perros robados/ extraviados/ en adopción a través de nuestras redes sociales.
-            </p>
+        <div class="container">
+          <h2 class="titulo">Nuestro objetivo</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="./assets/images/patitasinicio2.jpg">
+            </div>
+            <div class="col-md-6">
+              <p class="texto justify-content-center">
+                Buscamos y fomentamos la adopcion animal, para que cualquiera pueda tener la oportunidad de tener un hogar. Buscamos hogares responsables que adopten perros adultos y cachorros, haciendo un seguimiento en cada caso para asegurarnos de que cada amigo cuadrúpedo rescatado pueda tener una mejor vida y segurarnos de que la casa adoptante sea una adecuada que le brinde mucho amor y cariño. También difundimos casos de perros robados/ extraviados/ en adopción a través de nuestras redes sociales.
+              </p>
+            </div>
+          </div>  
         </div>
       </section>
+      <br><br><br>
     </main>
     <!--footer y barra de navegacion alternativa-->
-  <footer class="text-center text-white footerGral">
+  <footer class="text-center text-dark footerGral">
       <div class="container">
-          <section class="mt-5">
+          <section class="mt-4">
               <div class="row text-center d-flex justify-content-center pt-5">
                   <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="#" class="text-white">Inicio</a>
+                      <h6 class="text-uppercase">
+                          <a href="#" class="text-dark link">Inicio</a>
                       </h6>
                   </div>
                   <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="./pages/sobre nosotros.html" class="text-white">Sobre Nosotros</a>
+                      <h6 class="text-uppercase">
+                          <a href="./pages/sobre nosotros.html" class="text-dark link">Sobre Nosotros</a>
                       </h6>
                   </div>
                   <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="./pages/nuestros rescates.html" class="text-white">Nuestros rescates</a>
+                      <h6 class="text-uppercase">
+                          <a href="./pages/nuestros rescates.html" class="text-dark link">Nuestros rescates</a>
                       </h6>
                   </div>
                   <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="./pages/tienda.html" class="text-white">Tienda</a>
+                      <h6 class="text-uppercase">
+                          <a href="./pages/tienda.html" class="text-dark link">Tienda</a>
                       </h6>
                   </div>
                   <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="./pages/preguntas frecuentes.html" class="text-white">Faq</a>
+                      <h6 class="text-uppercase">
+                          <a href="./pages/preguntas frecuentes.html" class="text-dark link">Faq</a>
                       </h6>
                   </div>
                   <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                      <a href="./pages/Contacto.html" class="text-white">Contacto</a>
+                      <h6 class="text-uppercase">
+                      <a href="./pages/Contacto.html" class="text-dark link">Contacto</a>
                       </h6>
                   </div>
               </div>
           </section>
-              <hr class="my-5" />
+              <hr class="my-4" />
               <section class="mb-5">
                   <a href="http://www.facebook.com/" target="_blank" class="me-4">
-                      <img src="./assets/images/facebook.png" width="50px">
+                    <i class="fa-brands fa-square-facebook fa-3x icono"></i>
                   </a>
                   <a href="http://www.whatsapp.com/" target="_blank" class="me-4">
-                      <img src="./assets/images/whatsapp.png" width="50px">
+                    <i class="fa-brands fa-square-whatsapp fa-3x icono"></i>
                   </a>
                   <a href="http://www.instagram.com/" target="_blank" class="me-4">
-                      <img src="./assets/images/instagram.png" width="50px">
+                    <i class="fa-brands fa-square-instagram fa-3x icono"></i>
                   </a>
               </section>
           </div>
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          <div class="text-center p-3">
               Copyright @ 2022 - desarrollado por
-              <a class="text-white" href="" target="_blank">Alexis Pacheco</a>
+              <a class="text-dark" href="" target="_blank">Alexis Pacheco</a>
           </div>
   </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./javascript/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/all.min.js"></script>
+    <script src="./javascript/scripts.js"></script>
 </body>
 </html>

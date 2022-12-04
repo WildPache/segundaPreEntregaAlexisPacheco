@@ -8,44 +8,182 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.card{
-    border: 2px solid black;
+.cuerpo{
+    background-color: rgb(247, 247, 247);
 }
 
-.footerGral{
-    background-color: #8f1bfc
+/*Font Sizes*/
+.titulo{
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+.texto{
+    font-size: 1.2rem;
+}
+.tituloAlt{
+    font-size: 2.2rem;
+}
+/*navbar*/
+
+.navbarGral{
+    background-color:#ffffff;
+}
+.navbar-toggler{
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+}
+.nav-item a:hover{
+    color: #00d10a;
+}
+/*fin navbar*/
+
+.card{
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.icono{
+    color: black;
+}
+.linea{
+    background: #00d10a;
+    height: 6px;
+    display: inline-block;
+    width: 100%;
+}
+/*formulario*/
+
+.formulario{
+    background-color: white;
+    width: 360px;
+    padding: 20px;
+}
+.form-check-input:focus{
+    box-shadow: inherit;
+}
+.form-control:focus{
+    box-shadow: inherit;
+}
+/*mapa*/
+.mapa{
+    background-color: white;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+.mapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*faq acordeon*/
+.accordion-button{
+    font-size: 1.4rem;
+}
+.accordion-item{
+    border: 1px solid rgba(0, 209, 10, .35)
+}
+.accordion-button:not(.collapsed){
+    color: inherit;
+    background: rgba(0, 209, 10, 1);
+    color: #ffffff;
+}
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%)
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+/*boton tienda*/
+.boton{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: #00d10a;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.boton:hover{
+    outline: none;
+    color: #00d10a;
+    background: transparent;
+    border-radius: 50px;
+}
+
+/*footer*/
+.link{
+    position: relative;
+    text-decoration: none;
+}
+.link:after{
+    content:"";
+    position: absolute;
+    background-color: #00d10a;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.link:hover{
+    color: #ffffff;
+}
+.link:hover:after{
+    width: 100%;
 }
 
 /*mediaquerist*/
-
 @media screen and (max-width: 767px){
-    .nrTituloAlt{
-        color: black;
-        font-size: 1.5rem;
+    .titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
     }
-    .nrTextoAlt{
-        color: black;
+    .texto{
         font-size: 1rem;
+    }
+    .tituloAlt{
+        font-size: 1.2rem;
+    }
+    .imagen{
+        width: 60%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    .nrTituloAlt{
-        color: black;
-        font-size: 2.5rem;
+    .titulo{
+        font-weight: bold;
+        font-size: 2rem;
     }
-    .nrTextoAlt{
-        color: black;
-        font-size: 1.8rem;
+    .texto{
+        font-size: 1.2rem;
+    }
+    .tituloAlt{
+        font-size: 1.6rem;
+    }
+    .imagen{
+        width: 50%;
     }
 }
 
-@media screen and (min-width: 1024px){
-    .nrTituloAlt{
-        color: black;
-        font-size: 4rem;
-    }
-    .nrTextoAlt{
-        color: black;
-        font-size: 1.8rem;
-    }
-}

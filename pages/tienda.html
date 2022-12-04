@@ -8,18 +8,19 @@
     <link rel="icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header>
         <!--header, logo con index y barra de navegacion-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbarGral">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-                <img src="../assets/images/patitaslogo.png" height="100" alt="patitasLogo.png">
+                <img src="../assets/images/logo.png" height="100" alt="patitasLogo.png">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"> <i class="fa-solid fa-bars"></i></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -46,50 +47,52 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <h1>Bienvenido a nuestra tienda!</h1>
-        </section>
-        <section>
-            <div>
-                <h2> Productos de patitas hechos con mucho amor</h2>
+    <main class="cuerpo">
+        <br><br><br>
+        <div class="container" data-aos="fade-right" data-aos-duration="1000">
+            <div class="row">
+                <div class="col">
+                    <h1 class="titulo">Bienvenido a nuestra tienda!</h1>
+                    <h2 class="tituloAlt"> Productos de patitas hechos con mucho amor</h2>
+                </div>
             </div>
-            
+        </div>
+        <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-4 p-3">
                         <!--Producto1-->
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
                             <img src="../assets/images/frascosVidrio.jpg" alt="frascoHechoConAmor.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">frascos</h5>
-                                <p class="card-text">Frascos Artesanales hechos con mucho amor</p>
+                                <p class="card-text">Frascos Artesanales</p>
                                 <h5 class="card-subtitle mb-2 text-muted">$200</h5>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                <button class="boton" type="submit">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-4 p-3">
                         <!--producto2-->
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/images/botellaVidrio.jpg" alt="botellitaHechaConAmor.jpg" class="card-img-top">
+                        <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="../assets/images/botellitasVidrio.jpg" alt="botellitaHechaConAmor.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Botellas</h5>
                                 <p class="card-text">botellitas de vidrio sublimadas </p>
                                 <h5 class="card-subtitle mb-2 text-muted">$300</h5>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                <button class="boton" type="submit">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-4 p-3">
                         <!--Producto3-->
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/images/especieroVidrio.jpg" alt="especieroHechoConAmor.jpg" class="card-img-top">
+                        <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="../assets/images/EspecieroVidrio.jpg" alt="especieroHechoConAmor.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Especieros</h5>
                                 <p class="card-text">especieros con la etiqueta a elección</p>
                                 <h5 class="card-subtitle mb-2 text-muted">$170</h5>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                <button class="boton" type="submit">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
@@ -97,101 +100,104 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-4 p-3">
                         <!--producto4-->
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
                             <img src="../assets/images/tazas.jpg" alt="tazaHechaConAmor.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Tazas</h5>
                                 <p class="card-text">Tazas sublimadas hechas con amor</p>
                                 <h5 class="card-subtitle mb-2 text-muted">$800</h5>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                <button class="boton" type="submit">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-4 p-3">
                         <!--Producto 5-->
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/images/llaveros.jpg" alt="llaveroHechoConAmor.jpg" class="card-img-top">
+                        <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="../assets/images/llaverosArtesanales.jpg" alt="llaveroHechoConAmor.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Llaveritos</h5>
                                 <p class="card-text">100% artesanales hechos con mucho amor</p>
                                 <h5 class="card-subtitle mb-2 text-muted">$400</h5>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                <button class="boton" type="submit">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-4 p-3">
                         <!--producto6-->
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/images/bolsasEcologicas.jpg" alt="bolsaHechoConAmor.jpg" class="card-img-top">
+                        <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="../assets/images/bolsaEcologica.jpg" alt="bolsaHechoConAmor.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Bolsas ecológicas</h5>
-                                <p class="card-text">bolsas ecológicas para cuidar nuestro mundo</p>
+                                <p class="card-text">bolsas ecológicas</p>
                                 <h5 class="card-subtitle mb-2 text-muted">$500</h5>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                <button class="boton" type="submit">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <br><br><br>
     </main>
-    <footer class="text-center text-white footerGral">
+    <footer class="text-center text-dark footerGral">
         <div class="container">
-            <section class="mt-5">
+            <section class="mt-4">
                 <div class="row text-center d-flex justify-content-center pt-5">
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../index.html" class="text-white">Inicio</a>
+                        <h6 class="text-uppercase">
+                            <a href="../index.html" class="text-dark link">Inicio</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../pages/sobre nosotros.html" class="text-white">Sobre Nosotros</a>
+                        <h6 class="text-uppercase">
+                            <a href="../pages/sobre nosotros.html" class="text-dark link">Sobre Nosotros</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../pages/nuestros rescates.html" class="text-white">Nuestros rescates</a>
+                        <h6 class="text-uppercase">
+                            <a href="../pages/nuestros rescates.html" class="text-dark link">Nuestros rescates</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="#" class="text-white">Tienda</a>
+                        <h6 class="text-uppercase">
+                            <a href="#" class="text-dark link">Tienda</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../pages/preguntas frecuentes.html" class="text-white">Faq</a>
+                        <h6 class="text-uppercase">
+                            <a href="../pages/preguntas frecuentes.html" class="text-dark link">Faq</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                        <a href="../pages/Contacto.html" class="text-white">Contacto</a>
+                        <h6 class="text-uppercase">
+                        <a href="../pages/Contacto.html" class="text-dark link">Contacto</a>
                         </h6>
                     </div>
                 </div>
             </section>
-                <hr class="my-5" />
+                <hr class="my-4" />
                 <section class="mb-5">
                     <a href="http://www.facebook.com/" target="_blank" class="me-4">
-                        <img src="../assets/images/facebook.png" width="50px">
+                      <i class="fa-brands fa-square-facebook fa-3x icono"></i>
                     </a>
                     <a href="http://www.whatsapp.com/" target="_blank" class="me-4">
-                        <img src="../assets/images/whatsapp.png" width="50px">
+                      <i class="fa-brands fa-square-whatsapp fa-3x icono"></i>
                     </a>
                     <a href="http://www.instagram.com/" target="_blank" class="me-4">
-                        <img src="../assets/images/instagram.png" width="50px">
+                      <i class="fa-brands fa-square-instagram fa-3x icono"></i>
                     </a>
                 </section>
             </div>
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <div class="text-center p-3">
                 Copyright @ 2022 - desarrollado por
-                <a class="text-white" href="" target="_blank">Alexis Pacheco</a>
+                <a class="text-dark" href="" target="_blank">Alexis Pacheco</a>
             </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="../javascript/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/all.min.js"></script>
+    <script src="../javascript/scripts.js"></script>
 </body>
 </html>

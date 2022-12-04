@@ -8,18 +8,19 @@
     <link rel="icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <!--header, logo con index y barra de navegacion-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbarGral">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-                <img src="../assets/images/patitaslogo.png" height="100" alt="patitasLogo.png">
+                <img src="../assets/images/logo.png" height="100" alt="patitasLogo.png">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -46,108 +47,132 @@
             </div>
           </nav>
     </header>
-    <main>
+    <main class="cuerpo">
+        <br><br><br>
         <section>
             <!--titulo principal-->
-            <div>
-                <h1>Comunicate con Patitas Glew!</h1>
+            <div class="container text-center py-3">
+                <div class="row" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="col">
+                        <h1 class="titulo">Comunicate con Patitas Glew!</h1>
+                        <div class="linea"></div>
+                    </div>
+                </div>
             </div>
         </section>
         <section>
             <!--formulario y boton, checkbox activado para mas noticias-->
-            <div>
-                <h2>Querés que nos comuniquemos con vos? dejanos tus datos</h2>
+            <div class="container text-center py-5" data-aos="flip-left" data-aos-duration="1000">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="titulo">Querés que nos comuniquemos con vos? dejanos tus datos</h2>
+                    </div>
+                </div>
             </div>
-            <div>
-                <form>
-                    <div>
-                        <input id="nombres" type="text" placeholder="Nombre y apellido*" required>
-                        <label for="nombres"></label>
-                    </div>
-                    <div>
-                        <input id="email" type="email" placeholder="Email*" required>
-                        <label for="email"></label>
-                    </div>
-                    <div>
-                        <input id="chechboxNoticias" type="checkbox" checked>
-                        <label for="checkboxNoticias">Quiero recibir noticias de Patitas</label>
-                    </div>
-                    <div>
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
+            <div class="container">
+                <div class="row justify-content-center">  
+                    <div class="col-12 formulario" data-aos="zoom-in" data-aos-duration="2000">
+                        <form class="row g-3">
+                            <div>
+                                <label for="inputAddress" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="*" required>
+                            </div>
+                            <div>
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4" placeholder="*" required>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" checked id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                  Quiero recibir noticias de patitas
+                                </label>
+                              </div>
+                            </div>
+                            <div>
+                                <button class="boton" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>    
+                </div>        
             </div>
         </section>
         <section>
             <!--mapa y titulos-->
-            <h2>¿Donde nos encontramos?</h2>
-            <p>
-                Patitas se encuentra en todo glew!
-            </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52364.182269582685!2d-58.416186006157986!3d-34.887337572449965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd54588ed1f1d%3A0x2091411f6b32e343!2sGlew%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1666750089497!5m2!1ses-419!2sar" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container text-center">
+                <div class="row py-5" data-aos="flip-left" data-aos-duration="1000">    
+                    <h2 class="titulo">¿Donde nos encontramos?</h2>
+                    <div class="linea"></div>
+                </div>
+                <div class="row py-4" data-aos="flip-left" data-aos-duration="1000">
+                    <h2 class="titulo"> Patitas se encuentra en todo glew!</h2>
+                </div>
+                <div class="row py-3" data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="col mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52364.182269582685!2d-58.416186006157986!3d-34.887337572449965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd54588ed1f1d%3A0x2091411f6b32e343!2sGlew%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1666750089497!5m2!1ses-419!2sar" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!--Redes sociales, falta agregar imagenes-->
-        <section>
-            <a href="http://www.facebook.com" target="_blank">Facebook</a>
-            <a href="http://www.instagram.com" target="_blank">Instagram</a>
-            <a href="http://www.whatsapp.com" target="_blank">whatsapp</a>
-        </section>
+        <br><br><br>
     </main>
-    <footer class="text-center text-white footerGral">
-      <div class="container">
-          <section class="mt-5">
-              <div class="row text-center d-flex justify-content-center pt-5">
-                  <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="../index.html" class="text-white">Inicio</a>
-                      </h6>
-                  </div>
-                  <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="../pages/sobre nosotros.html" class="text-white">Sobre Nosotros</a>
-                      </h6>
-                  </div>
-                  <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="../pages/nuestros rescates.html" class="text-white">Nuestros rescates</a>
-                      </h6>
-                  </div>
-                  <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="../pages/tienda.html" class="text-white">Tienda</a>
-                      </h6>
-                  </div>
-                  <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                          <a href="../pages/preguntas frecuentes.html" class="text-white">Faq</a>
-                      </h6>
-                  </div>
-                  <div class="col-md-2">
-                      <h6 class="text-uppercase font-weight-bold">
-                      <a href="#" class="text-white">Contacto</a>
-                      </h6>
-                  </div>
-              </div>
-          </section>
-              <hr class="my-5" />
-              <section class="mb-5">
-                  <a href="http://www.facebook.com/" target="_blank" class="me-4">
-                      <img src="../assets/images/facebook.png" width="50px">
-                  </a>
-                  <a href="http://www.whatsapp.com/" target="_blank" class="me-4">
-                      <img src="../assets/images/whatsapp.png" width="50px">
-                  </a>
-                  <a href="http://www.instagram.com/" target="_blank" class="me-4">
-                      <img src="../assets/images/instagram.png" width="50px">
-                  </a>
-              </section>
-          </div>
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-              Copyright @ 2022 - desarrollado por
-              <a class="text-white" href="" target="_blank">Alexis Pacheco</a>
-          </div>
+    <footer class="text-center text-dark footerGral">
+        <div class="container">
+            <section class="mt-4">
+                <div class="row text-center d-flex justify-content-center pt-5">
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase">
+                            <a href="../index.html" class="text-dark link">Inicio</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase">
+                            <a href="../pages/sobre nosotros.html" class="text-dark link">Sobre Nosotros</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase">
+                            <a href="../pages/nuestros rescates.html" class="text-dark link">Nuestros rescates</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase">
+                            <a href="../pages/tienda.html" class="text-dark link">Tienda</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase">
+                            <a href="../pages/preguntas frecuentes.html" class="text-dark link">Faq</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase">
+                        <a href="#" class="text-dark link">Contacto</a>
+                        </h6>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-4" />
+            <section class="mb-5">
+                <a href="http://www.facebook.com/" target="_blank" class="me-4">
+                    <i class="fa-brands fa-square-facebook fa-3x icono"></i>
+                </a>
+                <a href="http://www.whatsapp.com/" target="_blank" class="me-4">
+                    <i class="fa-brands fa-square-whatsapp fa-3x icono"></i>
+                </a>
+                <a href="http://www.instagram.com/" target="_blank" class="me-4">
+                    <i class="fa-brands fa-square-instagram fa-3x icono"></i>
+                </a>
+            </section>
+        </div>
+        <div class="text-center p-3">
+            Copyright @ 2022 - desarrollado por
+            <a class="text-dark" href="" target="_blank">Alexis Pacheco</a>
+        </div>
   </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="../javascript/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/all.min.js"></script>
+    <script src="../javascript/scripts.js"></script>
 </body>
 </html>

@@ -8,18 +8,19 @@
     <link rel="icon" href="../assets/images/favicon.ico">
     <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <!--header, logo con index y barra de navegacion-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbarGral">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-                <img src="../assets/images/patitaslogo.png" height="100" alt="patitasLogo.png">
+                <img src="../assets/images/logo.png" height="100" alt="patitasLogo.png">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -46,25 +47,32 @@
             </div>
           </nav>
     </header>
-    <main>
-        <section>
+    <main class="cuerpo">
+        <br><br><br>
+        <section data-aos="flip-left" data-aos-duration="1000">
             <!--titulo principal-->
-            <div class="d-flex justify-content-center">
-                <h1>Rescates realizados por patitas</h1>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="titulo">Rescates realizados por patitas</h1>
+                        <div class="linea"></div>
+                    </div>
+                </div>
             </div>
         </section>
+        <br><br>
         <section>
             <!--Tarjeta 1-->
-            <div class="container ">
+            <div class="container shadow">
                 <div class="card mb-4 mt-4">
-                    <div class="row g-0">
+                    <div class="row g-0" data-aos="fade-right" data-aos-duration="2000">
                         <div class="col-md-4">
                             <img src="../assets/images/creta2.jpg"  class="img-fluid rounded-start" alt="creta.jpg">
                         </div>
                         <div class="col-md-8 align-self-center">
                             <div class="card-body text-center">
-                                <h5 class="card-title nrTituloAlt">Creta</h5>
-                                <p class="card-text nrTextoAlt">
+                                <h5 class="card-title tituloAlt">Creta</h5>
+                                <p class="card-text texto">
                                     Creta fue adoptada a sus 10 años de vida, pasó muchísimo tiempo esperando que la eligieran, fue  una larga espera pero finalmente encontró su familia soñada, que decidió darle una oportunidad más allá de su edad y enfermedad (falla renal crónica)!
                                     Ojalá muchos fueran como Nicolas que decidió adoptar con el corazón y logró cambiar una vida para siempre! 
                                 </p>
@@ -73,12 +81,12 @@
                     </div>
                 </div>
                 <!--tarjeta2-->
-                <div class="card mb-4 mt-4">
+                <div class="card mb-4 mt-4" data-aos="fade-left" data-aos-duration="2000">
                     <div class="row g-0">
                         <div class="col-md-8 align-self-center">
                             <div class="card-body text-center">
-                                <h5 class="card-title nrTituloAlt">Borges</h5>
-                                <p class="card-text nrTextoAlt">
+                                <h5 class="card-title tituloAlt">Borges</h5>
+                                <p class="card-text texto">
                                     Borges estuvo más de una semana internado en grave estado luchando por su vida y perdió (amputaron) una de su patas traseras porque el daño que tenía era irreversible, sin embargo más allá de cualquier pronóstico NUNCA SE DIO POR VENCIDO! 
                                         Hoy finalmente cerramos su historia con un final feliz, Borges fue adoptado y encontró en Ailen la familia que siempre soñó!     
                                 </p>
@@ -90,15 +98,15 @@
                     </div>
                 </div>
                 <!--tarjeta3-->
-                <div class="card mb-4 mt-4">
+                <div class="card mb-4 mt-4" data-aos="fade-right" data-aos-duration="2000">
                     <div class="row g-0">
                             <div class="col-md-4">
                                 <img src="../assets/images/oriana1.jpg" class="img-fluid rounded-start" alt="oriana.jgp">
                             </div>
                             <div class="col-md-8 align-self-center">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title nrTituloAlt">Oriana</h5>
-                                    <p class="card-text nrTextoAlt">
+                                    <h5 class="card-title tituloAlt">Oriana</h5>
+                                    <p class="card-text texto">
                                         Paso mas de un año y todavía recordamos ese rescate especial: una cachorra totalmente despellejada y con sus órganos expuestos. La ansiedad y el miedo a perderla se apoderaban de nosotras que entre lágrimas en los ojos le pedimos al oído que se quedara con nosotras, que amor nunca más le iba a faltar! Desesperadas llegamos al Hospital de Temperley donde la operaron de urgencia y salvaron su vida.
                                             Esa promesa la pudimos cumplir y al pensarlo se nos infla un poco el pecho y una sonrisa se dibuja entre tantos momentos vividos.
                                     </p>
@@ -107,12 +115,12 @@
                     </div>
                 </div>
                 <!--tarjeta4-->
-                <div class="card mb-4 mt-4">
+                <div class="card mb-4 mt-4" data-aos="fade-left" data-aos-duration="2000">
                     <div class="row g-0">
                         <div class="col-md-8 align-self-center">
                             <div class="card-body text-center">
-                                <h5 class="card-title nrTituloAlt">Manson</h5>
-                                <p class="card-text nrTextoAlt">
+                                <h5 class="card-title tituloAlt">Manson</h5>
+                                <p class="card-text texto">
                                     Manson hace un año logró conocer el mar por primera vez junto a su familia, nos llegan estas fotos y nosotras nos morimos de amor! 
                                     Respiramos profundo, levantamos la cabeza y sentimos en nuestro corazón que hicimos las cosas bien. 
                                     Estás fotos así lo demuestran: <strong>ADOPTAR SALVA VIDAS!</strong>
@@ -126,62 +134,65 @@
                 </div>
             </div>
         </section>
+        <br><br><br>
     </main>
-    <footer class="text-center text-white footerGral">
+    <footer class="text-center text-dark footerGral">
         <div class="container">
-            <section class="mt-5">
+            <section class="mt-4">
                 <div class="row text-center d-flex justify-content-center pt-5">
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../index.html" class="text-white">Inicio</a>
+                        <h6 class="text-uppercase">
+                            <a href="../index.html" class="text-dark link">Inicio</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../pages/sobre nosotros.html" class="text-white">Sobre Nosotros</a>
+                        <h6 class="text-uppercase">
+                            <a href="../pages/sobre nosotros.html" class="text-dark link">Sobre Nosotros</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="#" class="text-white">Nuestros rescates</a>
+                        <h6 class="text-uppercase">
+                            <a href="#" class="text-dark link">Nuestros rescates</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../pages/tienda.html" class="text-white">Tienda</a>
+                        <h6 class="text-uppercase">
+                            <a href="../pages/tienda.html" class="text-dark link">Tienda</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                            <a href="../pages/preguntas frecuentes.html" class="text-white">Faq</a>
+                        <h6 class="text-uppercase">
+                            <a href="../pages/preguntas frecuentes.html" class="text-dark link">Faq</a>
                         </h6>
                     </div>
                     <div class="col-md-2">
-                        <h6 class="text-uppercase font-weight-bold">
-                        <a href="../pages/Contacto.html" class="text-white">Contacto</a>
+                        <h6 class="text-uppercase">
+                        <a href="../pages/Contacto.html" class="text-dark link">Contacto</a>
                         </h6>
                     </div>
                 </div>
             </section>
-                <hr class="my-5" />
+                <hr class="my-4" />
                 <section class="mb-5">
                     <a href="http://www.facebook.com/" target="_blank" class="me-4">
-                        <img src="../assets/images/facebook.png" width="50px">
+                      <i class="fa-brands fa-square-facebook fa-3x icono"></i>
                     </a>
                     <a href="http://www.whatsapp.com/" target="_blank" class="me-4">
-                        <img src="../assets/images/whatsapp.png" width="50px">
+                      <i class="fa-brands fa-square-whatsapp fa-3x icono"></i>
                     </a>
                     <a href="http://www.instagram.com/" target="_blank" class="me-4">
-                        <img src="../assets/images/instagram.png" width="50px">
+                      <i class="fa-brands fa-square-instagram fa-3x icono"></i>
                     </a>
                 </section>
             </div>
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <div class="text-center p-3">
                 Copyright @ 2022 - desarrollado por
-                <a class="text-white" href="" target="_blank">Alexis Pacheco</a>
+                <a class="text-dark" href="" target="_blank">Alexis Pacheco</a>
             </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="../javascript/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/all.min.js"></script>
+    <script src="../javascript/scripts.js"></script>
 </body>
 </html>
