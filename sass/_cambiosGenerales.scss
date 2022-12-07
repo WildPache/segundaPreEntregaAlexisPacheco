@@ -1,0 +1,54 @@
+.cuerpo{
+    background-color: rgb(247, 247, 247);
+}
+.titulo{
+    font-weight: $fw;
+    font-size: map-get($map: $titulos, $key: Tescritorio);
+}
+.texto{
+    font-size: map-get($map: $textos, $key: Txtescritorio);
+}
+.tituloAlt{
+    font-size: map-get($map: $tituloAlt, $key: Taltescritorio);
+}
+
+.card{
+    border: 1px solid $negro;
+    border-radius: 0;
+}
+.linea{
+    background: $verdeBase;
+    height: 6px;
+    display: inline-block;
+    width: 100%;
+}
+@media screen and (max-width: 767px){
+    .titulo{
+    font-weight: $fw;
+    font-size: map-get($map: $titulos, $key: Tcelu);
+    }
+    .texto{
+        font-size: map-get($map: $textos, $key: Txtcelu);
+    }
+    .tituloAlt{
+        font-size: map-get($map: $tituloAlt, $key: Talcelu);
+    }
+    .imagen{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .titulo{
+        font-weight: $fw;
+        font-size: map-get($map: $titulos, $key: Ttablet);
+    }
+    .texto{
+        font-size: map-get($map: $tituloAlt, $key: Talttablet);
+    }
+    .tituloAlt{
+        font-size: 1.6rem;
+    }
+    .imagen{
+        width: 50%;
+    }
+}

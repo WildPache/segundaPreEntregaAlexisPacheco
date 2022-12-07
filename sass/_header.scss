@@ -1,0 +1,22 @@
+.navbarGral{
+    background-color:$blanco;
+    .navbar-toggler{
+        font-size: 2rem;
+        color: $negro;
+        &:hover{
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .nav-link{
+        text-decoration: none;
+        color: $negro;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 15px;
+        transition: all 0.4s;
+        &:hover{
+            color: $verdeBase;
+        }
+    }
+}
