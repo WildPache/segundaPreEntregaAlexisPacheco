@@ -3,7 +3,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none; }
 
 .cuerpo {
   background-color: #f7f7f7; }
@@ -18,10 +19,6 @@
 .tituloAlt {
   font-size: 2.2rem; }
 
-.card {
-  border: 1px solid black;
-  border-radius: 0; }
-
 .linea {
   background: #00d10a;
   height: 6px;
@@ -34,6 +31,8 @@
     font-size: 1.5rem; }
   .texto {
     font-size: 1rem; }
+  .tituloAlt {
+    font-size: 1.2rem; }
   .imagen {
     width: 60%; } }
 
@@ -41,10 +40,8 @@
   .titulo {
     font-weight: bold;
     font-size: 2rem; }
-  .texto {
-    font-size: 1.6rem; }
   .tituloAlt {
-    font-size: 1.6rem; }
+    font-size: 1.4rem; }
   .imagen {
     width: 50%; } }
 
@@ -85,6 +82,25 @@
     transition: all 0.4s; }
     .navbarGral .nav-link:hover {
       color: #00d10a; }
+
+.fa-triangle-exclamation {
+  font-size: 10em;
+  -webkit-animation: 0.75s linear infinite exclamacion;
+  animation: 3s linear infinite exclamacion; }
+
+@-webkit-keyframes exclamacion {
+  0% {
+    transform: scale(0); }
+  50% {
+    opacity: 1;
+    transform: none; } }
+
+@keyframes exclamacion {
+  0% {
+    transform: scale(0); }
+  50% {
+    opacity: 1;
+    transform: none; } }
 
 .formulario {
   background-color: white;

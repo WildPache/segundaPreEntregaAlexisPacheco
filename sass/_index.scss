@@ -1,0 +1,23 @@
+.fa-triangle-exclamation{
+  font-size: 10em;
+    -webkit-animation: 0.75s linear infinite exclamacion;
+    animation: 3s linear infinite exclamacion;
+    @-webkit-keyframes exclamacion{
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    @keyframes exclamacion{
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+}
