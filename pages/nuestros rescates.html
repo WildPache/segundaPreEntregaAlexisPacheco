@@ -12,269 +12,318 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <!--header, logo con index y barra de navegacion-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbarGral">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../assets/images/logo.png" height="100" alt="patitasLogo.png">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./sobre nosotros.html">Sobre nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Nuestros rescates</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./tienda.html">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./preguntas frecuentes.html">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Contacto.html">Contacto</a>
-                  </li>
-                </ul>
+  <!--header, logo con index y barra de navegacion-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbarGral">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/images/logo.png" height="100" alt="patitasLogo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nuestros rescates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./preguntas frecuentes.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="cuerpo">
+    <br><br><br>
+    <!--titulo principal-->
+    <section data-aos="flip-left" data-aos-duration="1000">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h1 class="titulo">Rescates realizados por patitas</h1>
+            <div class="linea"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+    <section>
+      <!--Tarjeta 1-->
+      <div class="container shadow">
+        <br>
+        <div class="card mb-4 mt-4">
+          <div class="row g-0" data-aos="fade-right" data-aos-duration="2000">
+            <div class="col-md-4">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img srcset="../assets/images/mobileCreta1.jpg 357w,
+                    ../assets/images/creta1.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/creta1.jpg"
+                    class="d-block w-100" alt="cretaPanzaArriba.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileCreta2.jpg 357w,
+                    ../assets/images/creta2.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/creta2.jpg" class="d-block w-100" alt="cretaAcostada.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileCreta3.jpg 357w,
+                    ../assets/images/creta3.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/creta3.jpg" class="d-block w-100" alt="cretaConSuFamilia.jpg" loading="lazy">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
-          </nav>
-    </header>
-    <main class="cuerpo">
-        <br><br><br>
-        <section data-aos="flip-left" data-aos-duration="1000">
-            <!--titulo principal-->
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="titulo">Rescates realizados por patitas</h1>
-                        <div class="linea"></div>
-                    </div>
-                </div>
+            <div class="col-md-8 align-self-center">
+              <div class="card-body text-center">
+                <h5 class="card-title tituloAlt">Creta</h5>
+                  <p class="card-text texto">
+                    Creta fue adoptada a sus 10 años de vida, pasó muchísimo tiempo esperando que la eligieran, fue  una larga espera pero finalmente encontró su familia soñada, que decidió darle una oportunidad más allá de su edad y enfermedad (falla renal crónica)!
+                    Ojalá muchos fueran como Nicolas que decidió adoptar con el corazón y logró cambiar una vida para siempre! 
+                  </p>
+              </div>
             </div>
-        </section>
-        <br><br>
-        <section>
-            <!--Tarjeta 1-->
-            <div class="container shadow">
-                <br>
-                <div class="card mb-4 mt-4">
-                    <div class="row g-0" data-aos="fade-right" data-aos-duration="2000">
-                        <div class="col-md-4">
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="../assets/images/creta.jpg" class="d-block w-100" alt="creta.jpg" loading="lazy">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="../assets/images/creta2.jpg" class="d-block w-100" alt="cretaAcostada.jpg" loading="lazy">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="../assets/images/creta3.jpg" class="d-block w-100" alt="cretaConSuFamilia.jpg" loading="lazy">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-md-8 align-self-center">
-                            <div class="card-body text-center">
-                                <h5 class="card-title tituloAlt">Creta</h5>
-                                <p class="card-text texto">
-                                    Creta fue adoptada a sus 10 años de vida, pasó muchísimo tiempo esperando que la eligieran, fue  una larga espera pero finalmente encontró su familia soñada, que decidió darle una oportunidad más allá de su edad y enfermedad (falla renal crónica)!
-                                    Ojalá muchos fueran como Nicolas que decidió adoptar con el corazón y logró cambiar una vida para siempre! 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tarjeta2-->
-                <div class="card mb-4 mt-4" data-aos="fade-left" data-aos-duration="2000">
-                    <div class="row g-0">
-                        <div class="col-md-8 align-self-center">
-                            <div class="card-body text-center">
-                                <h5 class="card-title tituloAlt">Borges</h5>
-                                <p class="card-text texto">
-                                    Borges estuvo más de una semana internado en grave estado luchando por su vida y perdió (amputaron) una de su patas traseras porque el daño que tenía era irreversible, sin embargo más allá de cualquier pronóstico NUNCA SE DIO POR VENCIDO! 
-                                        Hoy finalmente cerramos su historia con un final feliz, Borges fue adoptado y encontró en Ailen la familia que siempre soñó!     
-                                </p>
-                        </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="../assets/images/borges1.jpg" class="d-block w-100" alt="borgesConSuDueña.jpg" loading="lazy">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="../assets/images/borges2.jpg" class="d-block w-100" alt="borgesConSuDueña2.jpg" loading="lazy">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="../assets/images/borges3.jpg" class="d-block w-100" alt="borgesSentado.jpg" loading="lazy">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tarjeta3-->
-                <div class="card mb-4 mt-4" data-aos="fade-right" data-aos-duration="2000">
-                    <div class="row g-0">
-                            <div class="col-md-4">
-                                <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img src="../assets/images/oriana1.jpg" class="d-block w-100" alt="orianaConVestido.jpg" loading="lazy">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="../assets/images/oriana2.jpg" class="d-block w-100" alt="orianaCumpleaños.jpg" loading="lazy">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="../assets/images/oriana3.jpg" class="d-block w-100" alt="orianaFeliz.jpg" loading="lazy">
-                                      </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="col-md-8 align-self-center">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title tituloAlt">Oriana</h5>
-                                    <p class="card-text texto">
-                                        Paso mas de un año y todavía recordamos ese rescate especial: una cachorra totalmente despellejada y con sus órganos expuestos. La ansiedad y el miedo a perderla se apoderaban de nosotras que entre lágrimas en los ojos le pedimos al oído que se quedara con nosotras, que amor nunca más le iba a faltar! Desesperadas llegamos al Hospital de Temperley donde la operaron de urgencia y salvaron su vida.
-                                            Esa promesa la pudimos cumplir y al pensarlo se nos infla un poco el pecho y una sonrisa se dibuja entre tantos momentos vividos.
-                                    </p>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <!--tarjeta4-->
-                <div class="card mb-4 mt-4" data-aos="fade-left" data-aos-duration="2000">
-                    <div class="row g-0">
-                        <div class="col-md-8 align-self-center">
-                            <div class="card-body text-center">
-                                <h5 class="card-title tituloAlt">Manson</h5>
-                                <p class="card-text texto">
-                                    Manson hace un año logró conocer el mar por primera vez junto a su familia, nos llegan estas fotos y nosotras nos morimos de amor! 
-                                    Respiramos profundo, levantamos la cabeza y sentimos en nuestro corazón que hicimos las cosas bien. 
-                                    Estás fotos así lo demuestran: <strong>ADOPTAR SALVA VIDAS!</strong>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="../assets/images/manson1.jpg" class="d-block w-100" alt="mansonEnLaPlaya.jpg" loading="lazy">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="../assets/images/manson2.jpg" class="d-block w-100" alt="mansonConSuDueña.jpg" loading="lazy">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="../assets/images/manson3.jpg" class="d-block w-100" alt="mansonEsperandoElViaje.jpg" loading="lazy">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
+          </div>
+        </div>
+        <!--tarjeta2-->
+        <div class="card mb-4 mt-4" data-aos="fade-left" data-aos-duration="2000">
+          <div class="row g-0">
+            <div class="col-md-8 align-self-center">
+              <div class="card-body text-center">
+                <h5 class="card-title tituloAlt">Borges</h5>
+                <p class="card-text texto">
+                  Borges estuvo más de una semana internado en grave estado luchando por su vida y perdió (amputaron) una de su patas traseras porque el daño que tenía era irreversible, sin embargo más allá de cualquier pronóstico NUNCA SE DIO POR VENCIDO! 
+                  Hoy finalmente cerramos su historia con un final feliz, Borges fue adoptado y encontró en Ailen la familia que siempre soñó!     
+                </p>
+              </div>
             </div>
-        </section>
-        <br><br><br>
-    </main>
-    <footer class="text-center text-dark footerGral">
-        <div class="container">
-            <section class="mt-4">
-                <div class="row text-center d-flex justify-content-center pt-5">
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase">
-                            <a href="../index.html" class="text-dark link">Inicio</a>
-                        </h6>
-                    </div>
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase">
-                            <a href="../pages/sobre nosotros.html" class="text-dark link">Sobre Nosotros</a>
-                        </h6>
-                    </div>
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase">
-                            <a href="#" class="text-dark link">Nuestros rescates</a>
-                        </h6>
-                    </div>
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase">
-                            <a href="../pages/tienda.html" class="text-dark link">Tienda</a>
-                        </h6>
-                    </div>
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase">
-                            <a href="../pages/preguntas frecuentes.html" class="text-dark link">Faq</a>
-                        </h6>
-                    </div>
-                    <div class="col-md-2">
-                        <h6 class="text-uppercase">
-                        <a href="../pages/Contacto.html" class="text-dark link">Contacto</a>
-                        </h6>
-                    </div>
+            <div class="col-md-4">
+              <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img srcset="../assets/images/mobileBorges1.jpg 357w,
+                    ../assets/images/borges1.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/borges1.jpg" class="d-block w-100" alt="borgesConSuDueña.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileBorges2.jpg 357w,
+                    ../assets/images/borges2.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/borges2.jpg" class="d-block w-100" alt="borgesConSuDueña2.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileBorges3.jpg 357w,
+                    ../assets/images/borges3.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/borges3.jpg" class="d-block w-100" alt="borgesSentado.jpg" loading="lazy">
+                  </div>
                 </div>
-            </section>
-                <hr class="my-4" />
-                <section class="mb-5">
-                    <a href="https://www.facebook.com/patitasglew/" target="_blank" class="me-4">
-                      <i class="fa-brands fa-square-facebook fa-3x icono"></i>
-                    </a>
-                    <a href="http://www.whatsapp.com/" target="_blank" class="me-4">
-                      <i class="fa-brands fa-square-whatsapp fa-3x icono"></i>
-                    </a>
-                    <a href="https://www.instagram.com/patitasglew/" target="_blank" class="me-4">
-                      <i class="fa-brands fa-square-instagram fa-3x icono"></i>
-                    </a>
-                </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
-            <div class="text-center p-3">
-                Copyright @ 2022 - desarrollado por
-                <a class="text-dark" href="" target="_blank">Alexis Pacheco</a>
+          </div>
+        </div>
+        <!--tarjeta3-->
+        <div class="card mb-4 mt-4" data-aos="fade-right" data-aos-duration="2000">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img srcset="../assets/images/mobileOriana1.jpg 357w,
+                    ../assets/images/oriana1.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/oriana1.jpg" class="d-block w-100" alt="orianaConVestido.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileOriana2.jpg 357w,
+                    ../assets/images/oriana2.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/oriana2.jpg" class="d-block w-100" alt="orianaCumpleaños.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileOriana3.jpg 357w,
+                    ../assets/images/oriana3.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/oriana3.jpg" class="d-block w-100" alt="orianaFeliz.jpg" loading="lazy">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="../javascript/bootstrap.bundle.min.js"></script>
-    <script src="../javascript/all.min.js"></script>
-    <script src="../javascript/scripts.js"></script>
+            <div class="col-md-8 align-self-center">
+              <div class="card-body text-center">
+                <h5 class="card-title tituloAlt">Oriana</h5>
+                <p class="card-text texto">
+                  Paso mas de un año y todavía recordamos ese rescate especial: una cachorra totalmente despellejada y con sus órganos expuestos. La ansiedad y el miedo a perderla se apoderaban de nosotras que entre lágrimas en los ojos le pedimos al oído que se quedara con nosotras, que amor nunca más le iba a faltar! Desesperadas llegamos al Hospital de Temperley donde la operaron de urgencia y salvaron su vida.
+                  Esa promesa la pudimos cumplir y al pensarlo se nos infla un poco el pecho y una sonrisa se dibuja entre tantos momentos vividos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--tarjeta4-->
+        <div class="card mb-4 mt-4" data-aos="fade-left" data-aos-duration="2000">
+          <div class="row g-0">
+            <div class="col-md-8 align-self-center">
+              <div class="card-body text-center">
+                <h5 class="card-title tituloAlt">Manson</h5>
+                <p class="card-text texto">
+                  Manson hace un año logró conocer el mar por primera vez junto a su familia, nos llegan estas fotos y nosotras nos morimos de amor! 
+                  Respiramos profundo, levantamos la cabeza y sentimos en nuestro corazón que hicimos las cosas bien. 
+                  Estás fotos así lo demuestran: <strong>ADOPTAR SALVA VIDAS!</strong>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img srcset="../assets/images/mobileManson1.jpg 357w,
+                    ../assets/images/manson1.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/manson1.jpg" class="d-block w-100" alt="mansonEnLaPlaya.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileManson2.jpg 357w,
+                    ../assets/images/manson2.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/manson2.jpg" class="d-block w-100" alt="mansonConSuDueña.jpg" loading="lazy">
+                  </div>
+                  <div class="carousel-item">
+                    <img srcset="../assets/images/mobileManson3.jpg 357w,
+                    ../assets/images/manson3.jpg 1022w"
+                    sizes="(max-width: 500px) 357px,
+                    1022px"
+                    src="../assets/images/manson3.jpg" class="d-block w-100" alt="mansonEsperandoElViaje.jpg" loading="lazy">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+    </section>
+    <br><br><br>
+  </main>
+  <footer class="text-center text-dark footerGral">
+    <div class="container">
+      <section class="mt-4">
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="../index.html" class="text-dark link">Inicio</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="../pages/sobre nosotros.html" class="text-dark link">Sobre Nosotros</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="#" class="text-dark link">Nuestros rescates</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="../pages/tienda.html" class="text-dark link">Tienda</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="../pages/preguntas frecuentes.html" class="text-dark link">Faq</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="../pages/Contacto.html" class="text-dark link">Contacto</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+      <hr class="my-4" />
+      <section class="mb-5">
+        <a href="https://www.facebook.com/patitasglew/" target="_blank" class="me-4">
+          <i class="fa-brands fa-square-facebook fa-3x icono"></i>
+        </a>
+        <a href="http://www.whatsapp.com/" target="_blank" class="me-4">
+          <i class="fa-brands fa-square-whatsapp fa-3x icono"></i>
+        </a>
+        <a href="https://www.instagram.com/patitasglew/" target="_blank" class="me-4">
+          <i class="fa-brands fa-square-instagram fa-3x icono"></i>
+        </a>
+      </section>
+    </div>
+    <div class="text-center p-3">
+      Copyright @ 2022 - desarrollado por
+      <a class="text-dark" href="" target="_blank">Alexis Pacheco</a>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="../javascript/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/all.min.js"></script>
+  <script src="../javascript/scripts.js"></script>
 </body>
 </html>
