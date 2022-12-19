@@ -17,6 +17,9 @@
     display: inline-block;
     width: 100%;
 }
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
 @media screen and (max-width: 767px){
     .titulo{
     font-weight: $fw;

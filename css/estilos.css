@@ -25,6 +25,9 @@
   display: inline-block;
   width: 100%; }
 
+a:link, a:visited, a:active {
+  text-decoration: none; }
+
 @media screen and (max-width: 767px) {
   .titulo {
     font-weight: bold;
@@ -45,22 +48,23 @@
   .imagen {
     width: 50%; } }
 
-.link {
-  position: relative;
-  text-decoration: none; }
-  .link:after {
-    content: "";
-    position: absolute;
-    background-color: #00d10a;
-    height: 3px;
-    width: 0%;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s; }
-  .link:hover {
-    color: white; }
-  .link:hover:after {
-    width: 100%; }
+.text-uppercase {
+  font-size: 1rem; }
+  .text-uppercase .link {
+    position: relative; }
+    .text-uppercase .link:after {
+      content: "";
+      position: absolute;
+      background-color: #00d10a;
+      height: 3px;
+      width: 0%;
+      left: 0;
+      bottom: -5px;
+      transition: 0.3s; }
+    .text-uppercase .link:hover {
+      color: white; }
+    .text-uppercase .link:hover:after {
+      width: 100%; }
 
 .icono {
   color: black; }

@@ -1,21 +1,23 @@
-.link{
-    position: relative;
-    text-decoration: none;
-    &:after{
-        content:"";
-    position: absolute;
-    background-color: $verdeBase;
-    height: 3px;
-    width: 0%;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s;
-    }
-    &:hover{
-        color: $blanco;
-    }
-    &:hover:after{
-        width: 100%;
+.text-uppercase{
+    font-size: 1rem;
+    .link{
+        position: relative;
+        &:after{
+            content:"";
+        position: absolute;
+        background-color: $verdeBase;
+        height: 3px;
+        width: 0%;
+        left: 0;
+        bottom: -5px;
+        transition: 0.3s;
+        }
+        &:hover{
+            color: $blanco;
+        }
+        &:hover:after{
+            width: 100%;
+        }
     }
 }
 .icono{
