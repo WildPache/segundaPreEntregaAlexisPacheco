@@ -87,6 +87,39 @@ a:link, a:visited, a:active {
     .navbarGral .nav-link:hover {
       color: #00d10a; }
 
+.indexCard {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center; }
+  @media screen and (max-width: 767px) {
+    .indexCard {
+      margin-left: 15%;
+      margin-right: 15%; } }
+  .indexCard .indexCardImg {
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+    @media screen and (max-width: 767px) {
+      .indexCard .indexCardImg {
+        width: 40%; } }
+  .indexCard .indexBtn {
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+    outline: none;
+    border: none;
+    color: white;
+    background: #00d10a;
+    transition: all 0.4s; }
+    .indexCard .indexBtn:hover {
+      outline: none;
+      color: #00d10a;
+      background: transparent;
+      border-radius: 50px; }
+    .indexCard .indexBtn:focus {
+      box-shadow: inherit; }
+
 .fa-triangle-exclamation {
   font-size: 10em;
   -webkit-animation: 0.75s linear infinite exclamacion;
