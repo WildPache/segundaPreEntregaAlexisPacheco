@@ -1,0 +1,60 @@
+.indexCard{
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  @media screen and (max-width: 767px){
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .indexCardImg{
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    @media screen and (max-width: 767px) {
+      width: 40%;
+    }
+  }
+  .indexBtn{
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+    outline: none;
+    border: none;
+    color: $blanco;
+    background: $verdeBase;
+    transition: all 0.4s;
+    &:hover{
+        outline: none;
+        color: $verdeBase;
+        background: transparent;
+        border-radius: 50px;
+    }
+    &:focus{
+      box-shadow: $sinHeredar;
+    }
+  }
+}
+.fa-triangle-exclamation{
+  font-size: 10em;
+    -webkit-animation: 0.75s linear infinite exclamacion;
+    animation: 3s linear infinite exclamacion;
+    @-webkit-keyframes exclamacion{
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    @keyframes exclamacion{
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+}

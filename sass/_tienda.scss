@@ -1,0 +1,18 @@
+.boton{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: $blanco;
+    background: $verdeBase;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+    &:hover{
+        outline: none;
+        color: $verdeBase;
+        background: transparent;
+        border-radius: 50px;
+    }
+}

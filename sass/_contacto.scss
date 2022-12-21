@@ -1,0 +1,26 @@
+.formulario{
+    background-color: $blanco;
+    width: 360px;
+    padding: 20px;
+    .form-control{
+        box-shadow: $sinHeredar;
+    }
+    .form-check-input{
+        &:focus{
+            box-shadow: $sinHeredar;
+        }
+    }
+}
+.mapa{
+    background-color: $blanco;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    .mapaIframe{
+        left:0;
+        top:0;
+        @include haw;
+        position:absolute;
+    }
+}
